@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+}
+
+<div class="jumbotron">
+    <h1>Ornithology</h1>
+    <p class="lead">Ejemplo de aplicación ASP.NET MVC 5, Entity Framework, SQL Server local, HTML, CSS y JavaScript.</p>
+    @Html.ActionLink("Ver Aves", "Listar", "Ave", new { page =1 }, new { @class= "btn btn-primary btn-lg" })
+
+    
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Código fuente</h3>
+        <p><a href="https://github.com/juniormayhe/dotnet/tree/master/Ornithology">Ver archivos en Github &raquo;</a></p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Contacto</h3>
+        <p>
+            En el caso que necesite aclarar algun punto, por favor póngase en contacto con:
+        </p>
+        <p><a href="mailto:juniormayhe@gmail.com">juniormayhe@gmail.com</a></p>
+    </div>
+    
+</div>
